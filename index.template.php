@@ -16,10 +16,19 @@
     ?>
 
     <ul>
+        <li><?php
 
-         <?php foreach ($person as $key => featureValue) ;?>
-            <li><strong><?= $feature?> </li></strong>
-         <?php endforeach; ?>
+            if ($person('married')) {
+                echo "Casat";
+            } else {
+
+                echo "Solter";
+            }
+
+            ?>
+
+        </li>
+
 
     </ul>
 </h1>

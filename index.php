@@ -14,6 +14,8 @@ $names = ['Sergi', 'Xavi', 'Joan'];
 $person = [
     'name' => 'Sergi'
     'sn1' => 'Mauri'
+    'sn2' => 'Curto'
+    'edad' => '20'
 ];
 
 
