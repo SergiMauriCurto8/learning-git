@@ -16,6 +16,13 @@ function hellotortosino($name, $sn1){
 
 }
 
+function suma($args) {
+
+    $numbers = func_get_arg();
+
+    return array_sum($numbers);
+    
+}
 
 
 require "functions.php";
