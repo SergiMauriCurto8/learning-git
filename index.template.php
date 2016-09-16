@@ -13,14 +13,7 @@
     <ul>
         <li><?php
 
-            if ($person['married']) {
-                echo "Casat";
-            } else {
-
-                echo "Solter";
-            }
-
-            ?>
+            if ($person['married'] ? "Casat" : "Solter";?>
 
         </li>
 
