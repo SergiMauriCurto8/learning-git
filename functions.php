@@ -11,7 +11,7 @@ function hello($name, $sn1){
 
 }
 
-function hello($name, $sn1){
+function hellotortosino($name, $sn1){
     echo "Hola" . $name . " " . $sn1 . "Curto";
 
 }
