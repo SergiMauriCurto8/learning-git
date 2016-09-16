@@ -26,8 +26,9 @@ $married = true;
 $married = false;
 
 function hello($name, $sn1){
-
+    echo "Hola" . $name . " " . $sn1 . "!";
 
 }
+
 
 require "index.template.php";
