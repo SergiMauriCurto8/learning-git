@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -16,11 +16,11 @@
     ?>
 
     <ul>
-        <li>
-         <?php foreach ($names as $name) ;?>
-            <?= $name?>
+
+         <?php foreach ($person as $key => featureValue) ;?>
+            <li><strong><?= $feature?> </li></strong>
          <?php endforeach; ?>
-        </li>
+
     </ul>
 </h1>
 </body>

@@ -11,10 +11,10 @@ $names = ['Sergi', 'Xavi', 'Joan'];
     foreach ($names as $name) {
         echo "name";
     }
-&person = [
+$person = [
     'name' => 'Sergi'
     'sn1' => 'Mauri'
-]
+];
 
 
 echo $names;
