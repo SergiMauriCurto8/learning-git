@@ -12,9 +12,9 @@ $names = ['Sergi', 'Xavi', 'Joan'];
         echo "name";
     }
 $person = [
-    'name' => 'Sergi'
-    'sn1' => 'Mauri'
-    'sn2' => 'Curto'
+    'name' => 'Sergi',
+    'sn1' => 'Mauri',
+    'sn2' => 'Curto',
     'edad' => '20'
 ];
 

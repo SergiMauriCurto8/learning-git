@@ -9,16 +9,11 @@
 </head>
 <body>
 <h1>
-    <?php
-    foreach ($names as $name) {
-        echo "name";
-    }
-    ?>
 
     <ul>
         <li><?php
 
-            if ($person('married')) {
+            if ($person['married']) {
                 echo "Casat";
             } else {
 
