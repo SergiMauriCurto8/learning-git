@@ -20,4 +20,8 @@ $person = [
 echo $names;
 
 
-//require "index.template.php";
+$married = true;
+$married = false;
+
+
+require "index.template.php";
