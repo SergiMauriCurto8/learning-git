@@ -9,4 +9,13 @@
 class connection
 {
 
+    public static function make() {
+
+
+    }
+
+    public function make() {
+
+        
+    }
 }
