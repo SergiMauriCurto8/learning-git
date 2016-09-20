@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/php-learning.iml" filepath="$PROJECT_DIR$/.idea/php-learning.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/.idea/learning-git.iml" filepath="$PROJECT_DIR$/.idea/learning-git.iml" />
->>>>>>> 068e609613738a68808cf783c0a97c33704ef384
     </modules>
   </component>
 </project>

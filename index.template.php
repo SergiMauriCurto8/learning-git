@@ -8,8 +8,18 @@
     <title>Document</title>
 </head>
 <body>
+    <ul>
+        <?php foreach ($tasks as $task) : ?>
+            <li>
+            <?php if ($task->completed) : ?>
+                <strike><?= $task->description ?></strike>
+            <?php else:?>
+                <?= $task->description ?>
+            <?php endif:?>
+            </li>
+        <?php endforeach:?>
+    </ul>
 
-            <?= sum(1,2,3,5,100,546) ?>
 
 </body>
 </html>
