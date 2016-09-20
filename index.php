@@ -10,8 +10,8 @@ require 'database/QueryBuilder.php';
 
 $pdo = connection::make();
 
-$query = new QueryBuilder();
-$tasks = $query->all($pdo,'todos');
+$query = new QueryBuilder($pdo);
+$tasks = $query->all('todos');
 
 
 require "index.template.php";
