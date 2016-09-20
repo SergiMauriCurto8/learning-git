@@ -2,9 +2,16 @@
 
 class QueryBuilder {
 
-function all(connection $pdo,$table) {
+    public $pdo;
 
-    $query = $pdo->prepare('SELECT * FROM todos');
+    public function __construct(PDO $pdo) {
+
+        $this->pdo = $pdo;
+    }
+
+function all($table) {
+
+    $query = $this->pdo->prepare('SELECT * FROM todos');
 
     $query->execute();
 
