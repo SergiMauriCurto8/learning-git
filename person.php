@@ -1,5 +1,5 @@
 <?php
-
+PHP
 class person{
 
     public function getName()

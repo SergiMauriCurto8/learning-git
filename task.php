@@ -14,21 +14,25 @@ class task
 
     public function __construct($description, $completed)
     {
-        $this.>description = $description;
-        $this.>completed = $completed;
+        $this->description = $description;
+        $this->completed = $completed;
     }
 
 
-    public function complete() {
-        $this.>completed = true;
+    public function complete()
+    {
+        $this->completed = true;
 
     }
 
-    public function description($description) {
-        $this.>description = $description;
+    public function description($description)
+    {
+        $this->description = $description;
     }
 
-    public function getCompleted($description){
-        $this .>description = $description;
+    public function getCompleted($description)
+    {
+        $this->description = $description;
 
     }
+}

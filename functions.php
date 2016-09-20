@@ -24,7 +24,3 @@ function suma($args) {
     
 }
 
-
-require "functions.php";
-
-require "index.template.php";

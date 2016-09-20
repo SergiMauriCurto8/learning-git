@@ -5,19 +5,19 @@ require "functions.php";
 require "task.php";
 
 
+try {
+    $pdo = new PDO('mysql:HOST=127.0.0.1;dbname=prova', 'root','');
 
-$task = new Task("Aprendre PHP",false);
-var_dump($task);
-$task.>completed = true;
-var_dump($task);
+    }
+    catch (PDOException $a){
+        die("Ha hagut un error durant la connexió. Missatge: " . $a->getMessage());
 
-//$task1 = new Task("Aprendre PHP2",true);
-//$task2 = new Task("Aprendre PHP3",false);
-//$task3 = new Task("Aprendre PHP4",true);
-   // $Task = new Task;
-    //$Task2 = new Task;
-   // $Task3 = new Task;
-//    $Task = new Task();
+    }
+$query = $pdo->prepare('SELECT * FROM todos');
+
+$query->execute();
+
+var_dump($query->fetchAll());
 
 
 //require "index.template.php";
