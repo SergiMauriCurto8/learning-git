@@ -21,7 +21,16 @@ $query->execute();
 
 //var_dump($query->fetchAll(PDO::FETCH_OBJ)[0]->description);
 
-var_dump($query->fetchAll(PDO::FETCH_CLASS,task::class));
+$results = $query->fetchAll(PDO::FETCH_CLASS|PDO::FETCH_PROPS_LATE,task::class);
+$task1 = $results[0];
+
+var_dump($task1->id);
+var_dump($results[0]->id);
+
+var_dump($task1->description);
+var_dump($task1->completed);
+
+//var_dump($query->fetchAll(PDO::FETCH_CLASS,task::class));
 
 
 

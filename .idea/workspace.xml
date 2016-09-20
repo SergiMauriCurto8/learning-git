@@ -68,11 +68,11 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+            <state relative-caret-position="220">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding>
-                <marker date="1474395156680" expanded="true" signature="280:293" ph="SELECT * FRO... todos" />
-                <marker date="1474395156680" expanded="true" signature="280:299" ph="SELECT * FRO... todos" />
+                <marker date="1474395945174" expanded="true" signature="280:293" ph="SELECT * FRO... todos" />
+                <marker date="1474395945174" expanded="true" signature="280:299" ph="SELECT * FRO... todos" />
               </folding>
             </state>
           </provider>
@@ -256,12 +256,12 @@
       <option name="presentableId" value="Default" />
       <updated>1474033988570</updated>
       <workItem from="1474033990006" duration="6291000" />
-      <workItem from="1474384073690" duration="8583000" />
+      <workItem from="1474384073690" duration="9245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14874000" />
+    <option name="totallyTimeSpent" value="15536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1375" height="876" extended-state="6" />
@@ -317,8 +317,8 @@
         <state relative-caret-position="375">
           <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding>
-            <marker date="1474395156680" expanded="true" signature="280:293" ph="SELECT * FRO... todos" />
-            <marker date="1474395156680" expanded="true" signature="280:299" ph="SELECT * FRO... todos" />
+            <marker date="1474395945174" expanded="true" signature="280:293" ph="SELECT * FRO... todos" />
+            <marker date="1474395945174" expanded="true" signature="280:299" ph="SELECT * FRO... todos" />
           </folding>
         </state>
       </provider>
@@ -386,11 +386,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        <state relative-caret-position="220">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           <folding>
-            <marker date="1474395156680" expanded="true" signature="280:293" ph="SELECT * FRO... todos" />
-            <marker date="1474395156680" expanded="true" signature="280:299" ph="SELECT * FRO... todos" />
+            <marker date="1474395945174" expanded="true" signature="280:293" ph="SELECT * FRO... todos" />
+            <marker date="1474395945174" expanded="true" signature="280:299" ph="SELECT * FRO... todos" />
           </folding>
         </state>
       </provider>
