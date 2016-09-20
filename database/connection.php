@@ -9,12 +9,12 @@
 class connection
 {
 
-    public static function make() {
+    public static function make()
+    {
         try {
-            $pdo = new PDO('mysql:HOST=127.0.0.1;dbname=prova', 'root','');
+            $pdo = new PDO('mysql:HOST=127.0.0.1;dbname=prova', 'root', '');
             return $pdo;
-        }
-        catch (PDOException $a){
+        } catch (PDOException $a) {
             die("Ha hagut un error durant la connexió. Missatge: " . $a->getMessage());
 
         }
@@ -22,7 +22,4 @@ class connection
     }
 
     //public function make() {
-
-
-    }
 }
