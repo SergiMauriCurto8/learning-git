@@ -8,17 +8,8 @@
     <title>Document</title>
 </head>
 <body>
-<h1>
 
-    <ul>
-        <li><?php
+            <?= sum(1,2,3,5,100,546) ?>
 
-            if ($person['married'] ? "Casat" : "Solter";?>
-
-        </li>
-
-
-    </ul>
-</h1>
 </body>
 </html>

@@ -1,34 +1,23 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: alumne
- * Date: 16/09/16
- * Time: 15:53
- */
 
-$names = ['Sergi', 'Xavi', 'Joan'];
+require "functions.php";
 
-    foreach ($names as $name) {
-        echo "name";
-    }
-$person = [
-    'name' => 'Sergi',
-    'sn1' => 'Mauri',
-    'sn2' => 'Curto',
-    'edad' => '20'
-];
+require "task.php";
 
 
-echo $names;
+
+$task = new Task("Aprendre PHP",false);
+var_dump($task);
+$task.>completed = true;
+var_dump($task);
+
+//$task1 = new Task("Aprendre PHP2",true);
+//$task2 = new Task("Aprendre PHP3",false);
+//$task3 = new Task("Aprendre PHP4",true);
+   // $Task = new Task;
+    //$Task2 = new Task;
+   // $Task3 = new Task;
+//    $Task = new Task();
 
 
-$married = true;
-$married = false;
-
-function hello($name, $sn1){
-    echo "Hola" . $name . " " . $sn1 . "!";
-
-}
-
-
-require "index.template.php";
+//require "index.template.php";
