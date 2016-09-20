@@ -17,7 +17,15 @@ $query = $pdo->prepare('SELECT * FROM todos');
 
 $query->execute();
 
-var_dump($query->fetchAll());
+//var_dump($query->fetchAll(PDO::FETCH_OBJ));
+
+//var_dump($query->fetchAll(PDO::FETCH_OBJ)[0]->description);
+
+var_dump($query->fetchAll(PDO::FETCH_CLASS,task::class));
+
+
+
+
 
 
 //require "index.template.php";
