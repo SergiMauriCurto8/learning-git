@@ -4,7 +4,9 @@ require "functions.php";
 
 require "task.php";
 
+$pdo = connect();
 
+function
 
 try {
     $pdo = new PDO('mysql:HOST=127.0.0.1;dbname=prova', 'root','');

@@ -34,5 +34,5 @@ function connect()
         die("Ha hagut un error durant la connexió. Missatge: " . $a->getMessage());
 
     }
-    
+
 }
