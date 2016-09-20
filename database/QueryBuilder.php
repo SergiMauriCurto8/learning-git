@@ -12,6 +12,4 @@ function all($pdo,$table) {
 }
 
 
-
-
 }

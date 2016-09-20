@@ -6,8 +6,9 @@ require "task.php";
 
 require 'database/connection.php';
 
+require 'database/QueryBuilder.php';
+
 $pdo = connection::make();
 
-$tasks = allTasks($pdo);
 
 require "index.template.php";
