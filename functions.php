@@ -24,3 +24,15 @@ function suma($args) {
     
 }
 
+function connect()
+{
+    try {
+        $pdo = new PDO('mysql:HOST=127.0.0.1;dbname=prova', 'root','');
+        return $pdo;
+    }
+    catch (PDOException $a){
+        die("Ha hagut un error durant la connexió. Missatge: " . $a->getMessage());
+
+    }
+    
+}
