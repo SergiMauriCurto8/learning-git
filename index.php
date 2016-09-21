@@ -8,13 +8,7 @@ require 'database/connection.php';
 
 require 'database/QueryBuilder.php';
 
-$config = (
-'type' => 'mysql',
-    'name' => 'prova',
-    'username' => 'root',
-    'password' => '',
-    'host' => '127.0.0.1'
-);
+$config = require 'config/database.php';
 
 $pdo = connection::make();
 

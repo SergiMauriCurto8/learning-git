@@ -4,14 +4,10 @@
 class connection
 {
 
-    public static function make()
+    public static function make($config)
     {
         try {
             //$pdo = new PDO('mysql:HOST=127.0.0.1;dbname=prova', 'root', '');
-            var_dump($config['dbtype'] . ':host=',
-                $config['dbhost'] . ':dbname=',
-                $config['dbname']);
-
             $pdo = new PDO(
                 $config['dbtype'] . ':host=',
                 $config['dbhost'] . ':dbname=',
