@@ -17,7 +17,7 @@ class connection
 
             return $pdo;
         } catch (PDOException $a) {
-            die("Ha hagut un error durant la connexió. Missatge: " . $a->getMessage());
+            die($message("Ha hagut un error durant la connexió. Missatge: ") . $a->getMessage());
 
         }
 
