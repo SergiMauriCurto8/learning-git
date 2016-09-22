@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -8,18 +8,15 @@
     <title>Document</title>
 </head>
 <body>
-    <ul>
-        <?php foreach ($tasks as $task) : ?>
-    <li>
-        <?php if ($task->completed) : ?>
-            <strike><?= $task->description ?></strike>
-        <?php else:?>
-            <?= $task->description ?>
-        <?php endif;?>
-    </li>
-<?php endforeach;?>
-</ul>
 
+
+<ul>
+    <?php foreach ($persons as $person) : ?>
+        <li>
+            <?= $person->LastName ?>
+        </li>
+    <?php endforeach;?>
+</ul>
 
 </body>
 </html>
