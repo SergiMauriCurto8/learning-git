@@ -13,9 +13,10 @@ $routes = [
 
 ];
 
-var_dump( trim($_SERVER('REQUEST_URL'), '/')) ;
+$uri = trim($_SERVER('REQUEST_URL'), '/')) ;
 
-require "index.template.php";
+if (array_key)
+
 
 //DRY: DON'T REPEAT YOURSELF
 //WET: WRITE EVERITHING TWICE

@@ -2,10 +2,9 @@
 
 require 'core/bootstrap.php'
 
-$persons = $query->all('persons');
+$tasks = $query->all('tasks');
 
 require "index.template.php";
 
 //DRY: DON'T REPEAT YOURSELF
 //WET: WRITE EVERITHING TWICE
-
