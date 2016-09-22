@@ -1,11 +1,9 @@
-<?php
 
-require 'core/bootstrap.php'
+<?php
 
 $persons = $query->all('persons');
 
-require "index.template.php";
+require 'views/persons.template.php';
 
 //DRY: DON'T REPEAT YOURSELF
 //WET: WRITE EVERITHING TWICE
-

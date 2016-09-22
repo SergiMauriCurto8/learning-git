@@ -1,10 +1,8 @@
 <?php
 
-require 'core/bootstrap.php'
+$tasks = $query->all('todos');
 
-$tasks = $query->all('tasks');
-
-require "index.template.php";
+require 'views/tasks.template.php';
 
 //DRY: DON'T REPEAT YOURSELF
 //WET: WRITE EVERITHING TWICE
