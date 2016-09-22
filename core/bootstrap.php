@@ -1,8 +1,8 @@
 <?php
 
-require "functions.php";
+require "core/functions.php";
 
-require "task.php";
+require "models/task.php";
 
 require 'database/connection.php';
 
