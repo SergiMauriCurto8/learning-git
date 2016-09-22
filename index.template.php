@@ -8,17 +8,30 @@
     <title>Document</title>
 </head>
 <body>
-    <ul>
-        <?php foreach ($tasks as $task) : ?>
-            <li>
-            <?php if ($task->completed) : ?>
-                <strike><?= $task->description ?></strike>
-            <?php else:?>
-                <?= $task->description ?>
-            <?php endif;?>
-            </li>
-        <?php endforeach;?>
-    </ul>
+        <nav>
+            ul>li*4
+            ul>(li>a)*4
+            <ul>
+                <li><a href="index.php">Tasques</a></li>
+                <li><a href="persons.php">Persones</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+
+        </nav>
+
+
+            <ul>
+                <?php foreach ($tasks as $task) : ?>
+                    <li>
+                    <?php if ($task->completed) : ?>
+                        <strike><?= $task->description ?></strike>
+                    <?php else:?>
+                        <?= $task->description ?>
+                    <?php endif;?>
+                    </li>
+                <?php endforeach;?>
+            </ul>
 
 
 </body>
