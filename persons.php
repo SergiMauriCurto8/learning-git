@@ -15,11 +15,9 @@ $message = require 'config/message.php';
 $pdo = connection::make($config,$message);
 
 $query = new QueryBuilder($pdo);
-$tasks = $query->all('todos');
+$tasks = $query->all('persons');
 
 require "index.template.php";
 
 //DRY: DON'T REPEAT YOURSELF
 //WET: WRITE EVERITHING TWICE
-
-
