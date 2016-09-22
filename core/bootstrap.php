@@ -2,15 +2,15 @@
 
 require "core/functions.php";
 
-require "models/task.php";
+require "core/models/task.php";
 
-require 'database/connection.php';
+require 'core/database/connection.php';
 
-require 'database/QueryBuilder.php';
+require 'core/database/QueryBuilder.php';
 
-$config = require 'config/database.php';
+$config = require 'core/config/database.php';
 
-$message = require 'config/message.php';
+$message = require 'core/config/message.php';
 
 $pdo = connection::make($config,$message);
 
