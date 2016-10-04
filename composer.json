@@ -1,0 +1,11 @@
+{
+    "name": "root/php-learning",
+    "description": "bla blaa",
+    "authors": [
+        {
+            "name": "Sergi Mauri Curto",
+            "email": "sergimauri8@gmail.com"
+        }
+    ],
+    "require": {}
+}
